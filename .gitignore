@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+.DS_Store
+# Never commit private model weights, datasets, or captured match footage.
+models/
+datasets/
+captures/
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.ckpt
